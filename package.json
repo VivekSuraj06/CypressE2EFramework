@@ -1,0 +1,35 @@
+{
+  "name": "cypresse2e",
+  "version": "1.0.0",
+  "description": "cypress with cucumber",
+  "main": "e2e.ts",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VivekSuraj06/CypressE2EFramework.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "vivek suraj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VivekSuraj06/CypressE2EFramework/issues"
+  },
+  "homepage": "https://github.com/VivekSuraj06/CypressE2EFramework#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
+    "cypress": "^13.16.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^21.0.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/steps/*.ts"
+  }
+}

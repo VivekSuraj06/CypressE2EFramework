@@ -1,0 +1,12 @@
+{
+  "userdata": 
+  {
+  "fname": "vivek",
+  "lname":"suraj",
+  "email": "hello@cypress.io",
+  "telephone": "0987654321",
+ "password" : "admin",
+ "cpassword":"admin"
+}
+}
+

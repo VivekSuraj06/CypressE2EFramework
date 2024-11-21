@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "lib": ["ES5","DOM"],
+        "module": "Node16",
+        "types": ["cypress"],
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node16"
+    },
+    "include": ["**/*.ts"]
+}
